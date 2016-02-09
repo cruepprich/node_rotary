@@ -1,0 +1,34 @@
+{
+  "name": "rotary_encoder",
+  "version": "1.0.0",
+  "description": "Use a rotary encode to increase/decrease counter.",
+  "main": "rotary_encoder.js",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "epoll": "^0.1.17",
+    "nan": "^2.2.0",
+    "onoff": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sudo node rotary_encoder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruepprich/rotary_encoder.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "node.js",
+    "node",
+    "rotary",
+    "encoder"
+  ],
+  "author": "Christoph Ruepprich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruepprich/rotary_encoder/issues"
+  },
+  "homepage": "https://github.com/cruepprich/rotary_encoder#readme"
+}
